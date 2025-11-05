@@ -145,8 +145,8 @@ pip install uvicorn starlette
 10.2 Проверка alias:\
     <img width="1341" height="178" alt="image" src="https://github.com/user-attachments/assets/fbf89203-da19-4709-aa69-4ad35dc2cb01" />\
     <img width="1359" height="157" alt="image" src="https://github.com/user-attachments/assets/0cdbbf88-2cd3-422b-8095-5470ec98064a" />\
-Вывод:
-В ходе выполнения лабораторной работы была успешно настроена конфигурация nginx, соответствующая всем требованиям технического задания.
+## Вывод:
+В ходе выполнения лабораторной работы была успешно настроена конфигурация nginx, соответствующая всем требованиям технического задания :)
 
 
 
