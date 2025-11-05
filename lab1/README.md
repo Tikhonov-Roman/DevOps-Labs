@@ -53,7 +53,7 @@ app = Starlette(debug=True, routes=[Route('/', home)])
 sudo apt update
 sudo apt install nginx
 ```
-2. Создаем папки для наших проектов: project1 и project2 и созадем там указанные выше файлы main.py для кажого проекта
+2. Создаем папки для наших проектов: project1 и project2 и создаем там указанные выше файлы main.py для кажого проекта
 3. Создаем директории для alias\
   3.1 Для первого проекта по пути /var/www/project1/static создадим test.html:\
   <img width="902" height="82" alt="image" src="https://github.com/user-attachments/assets/05c23ca5-3ddf-4a93-961a-e70d6bd1f23f" />\
