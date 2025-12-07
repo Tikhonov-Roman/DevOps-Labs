@@ -1,0 +1,48 @@
+IT Tower;Service Family;Service Type;Service Sub Type;Service Usage Type;Product Code;Usage Type; [lineItem/Operation];lineItem/LineItemDescription
+Storage;Storage&Content Delivery;Amazon S3;Data Transfer;Data Transfer;AmazonS3;%DataTransfer%;;
+Storage;Storage&Content Delivery;Amazon S3;Storage;Standard Storage;AmazonS3;%AWS-%ytes;;
+Storage;Storage&Content Delivery;Amazon S3;Data Transfer;Data Transfer;AmazonS3;%DataXfer%;;
+Storage;Storage&Content Delivery;Amazon S3;Data Retrieval;Archive Retrieval;AmazonS3;%Retrieval-Bytes%;;
+Storage;Storage&Content Delivery;Amazon S3;Replication;Replication Transfer;AmazonS3;%S3RTC%-Bytes%;;
+Storage;Storage&Content Delivery;Amazon S3;Data Retrieval;Infrequent Access Retrieval;AmazonS3;%Retrieval-ZIA;;
+Storage;Storage&Content Delivery;Amazon S3;CDN;Data Transfer Out;AmazonS3;%CloudFront%Bytes;;
+Database;Database;Amazon QLDB;Storage;Journal Storage;AmazonQLDB;%Storage;;
+Database;Database;Amazon QLDB;IO;IO Requests;AmazonQLDB;%IO-Request;;
+Database;Analytics;Amazon Redshift;Additional Costs;Tax;AmazonRedshift;;;Tax%
+Database;Analytics;Amazon Redshift;Compute;Heavy Utilization Reserved Instance;AmazonRedshift;%HeavyUsage%;;
+Database;Analytics;Amazon Redshift;Compute;RA3 Node Usage;AmazonRedshift;%Node:ra%;;
+Database;Analytics;Amazon Redshift;Query Execution;Data Scanned;AmazonRedshift;%DataScanned%;;
+Database;Analytics;Amazon Redshift;Compute;Dense Compute Node Usage;AmazonRedshift;%Node:dc%;;
+Database;Analytics;Amazon Redshift;Compute;Dense Storage Node Usage;AmazonRedshift;%Node:ds%;;
+Networking;Networking;Amazon VPC;Additional Costs;Tax;AmazonVPC;;;Tax%
+Networking;Networking;Amazon VPC;Data Transfer;Regional Data Transfer;AmazonVPC;%DataTransfer%Bytes;;
+Networking;Networking;Amazon VPC;Data Transfer;Inter-AZ Data Transfer;AmazonVPC;%AWS%Bytes;;
+Networking;Networking;Amazon VPC;Data Transfer;CloudFront Data Transfer;AmazonVPC;%CloudFront%Bytes%;;
+Networking;Networking;Amazon VPC;VPN;IPSec VPN Connection-Hour;AmazonVPC;%VPN-Usage-Hours:ipsec.1;;
+Networking;Networking;Amazon VPC;Transit Gateway;Transit Gateway Attachment-Hour;AmazonVPC;%TransitGateway-Hours;;
+Networking;Networking;Amazon VPC;Transit Gateway;Transit Gateway Data Processing;AmazonVPC;%TransitGateway-Bytes;;
+Networking;Networking;Amazon VPC;VPC Endpoint;Data Processed;AmazonVPC;%VpcEndpoint-Bytes;;
+Networking;Networking;Amazon VPC;VPC Endpoint;Endpoint-Hour;AmazonVPC;%VpcEndpoint-Hours;;
+Networking;Networking;Amazon VPC;VPC Endpoint;Interface Endpoint-Hour;AmazonVPC;%EndpointHours;;
+Networking;Networking;Amazon VPC;Traffic Mirroring;Traffic Mirroring Session;AmazonVPC;%ENI-Mirror;;
+Networking;Networking;Amazon VPC;Direct Connect;Connection-Hour;AmazonVPC;%ConnectionHours;;
+Cloud Services;Application Services;Amazon SES;Additional Costs;Tax;AmazonSES;;;Tax%
+Cloud Services;Application Services;Amazon SES;Messaging;Email Recipients;AmazonSES;%Recipients%;;
+Cloud Services;Application Services;Amazon SES;Messaging;Attachment Size;AmazonSES;%AttachmentsSize-Bytes;;
+Cloud Services;Application Services;Amazon SES;Messaging;Inbound Email Chunks;AmazonSES;%ReceivedChunk%;;
+Cloud Services;Application Services;Amazon SES;Messaging;Outbound Messages;AmazonSES;%Message%;;
+Cloud Services;Application Services;Amazon SES;Data Transfer;Data Transfer Out;AmazonSES;%DataTransfer-Out-Bytes;;
+Cloud Services;Application Services;Amazon SES;Data Transfer;Data Transfer In;AmazonSES;%DataTransfer-In-Bytes;;
+Cloud Services;Application Services;Amazon SNS;Additional Costs;Tax;AmazonSNS;;;Tax%
+Cloud Services;Application Services;Amazon SNS;API Requests;HTTP Requests (Tier 1);AmazonSNS;%Requests-Tier1;;
+Cloud Services;Application Services;Amazon SNS;API Requests;HTTP Requests (Tier 2);AmazonSNS;%Requests-Tier2;;
+Cloud Services;Application Services;Amazon SNS;Data Transfer;Data Transfer Out;AmazonSNS;%DataTransfer-Out-Bytes;;
+Cloud Services;Application Services;Amazon SNS;Data Transfer;Data Transfer In;AmazonSNS;%DataTransfer-In-Bytes;;
+Cloud Services;Application Services;Amazon SNS;Mobile Push;Delivery Attempts (GCM);AmazonSNS;%DeliveryAttempts-GCM;;
+Cloud Services;Application Services;Amazon SNS;Email Notifications;Delivery Attempts (SMTP);AmazonSNS;%DeliveryAttempts-SMTP;;
+Cloud Services;Application Services;Amazon SNS;HTTP Notifications;Delivery Attempts (HTTP);AmazonSNS;%DeliveryAttempts-HTTP;;
+Cloud Services;Application Services;Amazon SNS;Queue Notifications;Delivery Attempts (SQS);AmazonSNS;%DeliveryAttempts-SQS;;
+Cloud Services;Application Services;Amazon SNS;SMS;SMS Message Pricing;AmazonSNS;%SMS-Price%;;
+Cloud Services;Application Services;Amazon SNS;SMS;SMS Messages Sent;AmazonSNS;%SMS-Sent%;;
+Cloud Services;Application Services;Amazon SNS;Mobile Push;Delivery Attempts (APNS);AmazonSNS;%DeliveryAttempts-APNS%;;
+Cloud Services;Application Services;Amazon SNS;Lambda Notifications;Delivery Attempts (Lambda);AmazonSNS;%DeliveryAttempts-LAMBDA;;
