@@ -1,0 +1,43 @@
+IT Tower;Service Family;Service Type;Service Sub Type;Service Usage Type;Meter Category;Meter Sub-Category;Meter Name;Consumed Service
+Database;Database;Azure Database for PostgreSQL;Managed Database;Instance Usage;Azure Database for PostgreSQL;;;Microsoft.DBforMyQL
+Database;Database;Azure Database for MySQL;Managed Database;Instance Usage;Azure Database for PostgreSQL;;;Microsoft.DBforPostgreSQL
+Database;Analytics;Azure Databricks;Data Analytics;Compute Usage;Azure Databricks;;%Data Analytics%;Microsoft.Databricks
+Database;Analytics;Azure Databricks;Data Engineering;Compute Usage;Azure Databricks;;%Data Engineering%;Microsoft.Databricks
+Management Tools;Management & Governance;Azure Monitor;Notifications;Webhook Execution;Azure Monitor;Notifications;Webhook;microsoft.insights
+Management Tools;Management & Governance;Azure Monitor;Notifications;Email Dispatch;Azure Monitor;Notifications;Email;microsoft.insights
+Storage;Storage&Content Delivery;Azure Backup;Geo-Redundant Storage;GRS Blob Storage;Backup;Geo Redundant Storage;Standard IO - Block Blob (GB);Microsoft.RecoveryServices
+Storage;Storage&Content Delivery;Azure Backup;Storage;GRS Data Stored;Backup;;GRS Data Stored;Microsoft.RecoveryServices
+Storage;Storage&Content Delivery;Azure Backup;Protected Instances;VM Backup Instance;Backup;;%Azure VM%Protected Instances;Microsoft.RecoveryServices
+Database;Analytics;Azure HDInsight;Compute;Cluster Hours;Business Analytics;;Compute Hours;Microsoft.HDInsight
+Database;Analytics;Azure Data Factory;Data Integration;Cloud Data Movement;Business Analytics;Data Factory;Data Movement Cloud;Microsoft.DataFactory
+Database;Analytics;Azure Data Factory;Data Integration;On-Premises Data Movement;Business Analytics;Data Factory;Data Movement On Premises;Microsoft.DataFactory
+Database;Analytics;Azure Data Factory;Orchestration;High-Freq Cloud Pipeline;Business Analytics;Data Factory;High Frequency Cloud Activity;Microsoft.DataFactory
+Database;Analytics;Azure Data Factory;Orchestration;High-Freq On-Prem Pipeline;Business Analytics;Data Factory;High Frequency On Premises  Activity;Microsoft.DataFactory
+Database;Analytics;Azure Data Factory;Orchestration;Low-Freq On-Prem Pipeline;Business Analytics;Data Factory;Low Frequency On Premises  Activity;Microsoft.DataFactory
+Database;Analytics;Azure Data Factory;Orchestration;Low-Freq Cloud Pipeline;Business Analytics;Data Factory;Low Frequency Cloud Activity;Microsoft.DataFactory
+Database;Analytics;Azure Data Lake Store;Storage;Data at Rest;Business Analytics;Data Lake Store;Data at Rest (GB);Microsoft.DataLakeStore
+Database;Analytics;Azure Data Lake Store;Transactions;API Request;Business Analytics;Data Lake Store;Transactions%;Microsoft.DataLakeStore
+Database;Analytics;Azure Stream Analytics;Stream Processing;Standard SU Hours;Business Analytics;Stream Analytics;Standard SU (Hours);Microsoft.StreamAnalytics
+Database;Analytics;Azure Stream Analytics;Stream Processing;Data Processed;Business Analytics;Stream Analytics;Data Processed (GB);Microsoft.StreamAnalytics
+Database;Analytics;Azure Stream Analytics;Stream Processing;Streaming Unit Hours;Business Analytics;Stream Analytics;Streaming Units (Hours);Microsoft.StreamAnalytics
+Database;Analytics;Azure Stream Analytics;Stream Processing;Streaming Unit Usage;Stream Analytics;;%Streaming Unit;Microsoft.StreamAnalytics
+Database;Database;Azure Cache for Redis;In-Memory Cache;Cache Instance;Cache;Azure Redis Cache;;Microsoft.Cache
+Database;Database;Azure Cache for Redis;In-Memory Cache;Cache Capacity;Redis Cache;;C%;Microsoft.Cache
+Database;Database;Azure Cache for Redis;In-Memory Cache;Cache Instance;Redis Cache;;___C%;Microsoft.Cache
+Storage;Storage&Content Delivery;Azure CDN;Content Delivery;Standard Data Transfer;CDN;CDN;Standard CDN Data Transfer%;Microsoft.Cdn
+Storage;Storage&Content Delivery;Azure CDN;Content Delivery;Data Transfer;Content Delivery Network;Azure CDN%;%Data Transfer;Microsoft.Cdn
+Cloud Services;Additional Costs;Reservation;License;Reserved License Cost;Cloud Services;Reservation;%License;Microsoft.Batch
+Compute;Compute;Virtual Machines;General Purpose (A-series);Compute Hours;Cloud Services;A%;Compute Hours;Compute
+Compute;Compute;Virtual Machines;General Purpose (D-series);Compute Hours;Cloud Services;D%;Compute Hours;Compute
+Compute;Compute;Virtual Machines;Compute Optimized (F-series);Compute Hours;Cloud Services;F%;Compute Hours;Compute
+Compute;Compute;Virtual Machines;Memory Optimized (G-series);Compute Hours;Cloud Services;G%;Compute Hours;Compute
+Compute;Compute;Virtual Machines;High Performance (H-series);Compute Hours;Cloud Services;H%;Compute Hours;Compute
+Compute;Compute;Virtual Machines;GPU (N-series);Compute Hours;Cloud Services;N%;Compute Hours;Compute
+Compute;Compute;Azure Batch;Batch Computing;Compute Hours;Cloud Services;;Compute Hours;Microsoft.Batch
+Compute;Compute;Virtual Machines;General Purpose (A-series);vCPU Hours;Cloud Services;A%;A%;%Compute
+Compute;Compute;Virtual Machines;General Purpose (D-series);vCPU Hours;Cloud Services;D%;D%;%Compute
+Compute;Compute;Virtual Machines;Compute Optimized (F-series);vCPU Hours;Cloud Services;F%;F%;%Compute
+Compute;Compute;Virtual Machines;Memory Optimized (G-series);vCPU Hours;Cloud Services;G%;G%;%Compute
+Compute;Compute;Virtual Machines;High Performance (H-series);vCPU Hours;Cloud Services;H%;H%;%Compute
+Compute;Compute;Virtual Machines;GPU (N-series);vCPU Hours;Cloud Services;N%;N%;%Compute
+Compute;Compute;Azure Batch;Batch Computing;Node Hours;Cloud Services;D%;D%;Microsoft.Batch
